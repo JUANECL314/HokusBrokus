@@ -157,11 +157,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6005724455521541283}
   toggleTransition: 1
   graphic: {fileID: 1726744086007672106}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 7407026382538887131}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &265370348152256854
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,7 +708,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4118422244859553454}
   toggleTransition: 1
   graphic: {fileID: 1786710266980268700}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 7407026382538887131}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1156,11 +1156,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2114192809659434955}
   toggleTransition: 1
   graphic: {fileID: 6522744784654955358}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 7407026382538887131}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &4685512360414552447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,7 +1174,6 @@ GameObject:
   - component: {fileID: 1417851973374547462}
   - component: {fileID: 7122815919700561015}
   - component: {fileID: 5489397062166400430}
-  - component: {fileID: 7596425927345559564}
   m_Layer: 5
   m_Name: PlayerCard
   m_TagString: Untagged
@@ -1285,19 +1284,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &7596425927345559564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4685512360414552447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AllowSwitchOff: 1
 --- !u!1 &5634550728475414078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,6 +1373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4507558982912675337}
   - component: {fileID: 1830454855074640257}
+  - component: {fileID: 7407026382538887131}
   m_Layer: 5
   m_Name: Options
   m_TagString: Untagged
@@ -1444,6 +1431,19 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &7407026382538887131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6147440305305197249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fafe2cfe61f6974895a912c3755e8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 1
 --- !u!1 &6241485791788349300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,11 +1525,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1294229686994061685}
   toggleTransition: 1
   graphic: {fileID: 4772435569042677209}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 7407026382538887131}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &6364989559964819597
 GameObject:
   m_ObjectHideFlags: 0
@@ -1611,11 +1611,11 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2314971859718095644}
   toggleTransition: 1
   graphic: {fileID: 8278774783220491603}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 7407026382538887131}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &6841271187537844130
 GameObject:
   m_ObjectHideFlags: 0
